@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.content-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-banner img {
+    width: 100%;
+    height: auto; 
+}
+
+.banner img{
+    width: 100%;
+    height: auto; 
+}
+
+.banner-txt {
+    
+    color: #b295f2; 
+    
+    padding: 8px;
+    
+    font-size: 4em;
+    
+    
+}
+
+.content-banner {
+    position: relative;
+}
+
+
+.food-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+}
+
+.product-card {
+    background: #ffffff;    
+    border: 5px solid #c7acea;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 10px;
+    width: calc(100% - 20px); 
+    max-width: 300px; 
+    box-shadow: 5px 5px #f7ccff;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.caption {
+    margin-top: 10px;
+}
+
+.product-name {
+    font-size: 1.5em;
+    font-weight: 700;
+    color: #b295f2;
+    padding: 0.7em 0.5em;
+}
+
+
+
+.menu-btn {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background: #f7ccff; 
+    color: #8965d5;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 700;
+    transition: background-color 0.3s;
+    border: 0.2rem solid #c7acea;
+    box-shadow: 0.2rem 0.2rem #c9aeed;
+}
+
+.menu-btn:hover {
+    background-color: #fce8ff; 
+}
+
+@media (max-width: 600px) {
+    .product-card {
+        width: calc(100% - 20px); 
+    }
+
+    .product-name {
+        font-size: 1.1em; 
+    }
+
+    .banner-txt{
+        font-size: 1em;
+    }
+
+    .product-price {
+        font-size: 0.9em; 
+    }
+}

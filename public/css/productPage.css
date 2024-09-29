@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+.container{
+    margin-top: 20vh;
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+}
+
+.product-card {
+    background-color: #fff;
+    border: 5px solid #c7acea;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 10px;
+    width: calc(100% - 20px); 
+    max-width: 300px; 
+    box-shadow: 5px 5px #f7ccff;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.caption {
+    margin-top: 10px;
+}
+
+.product-name {
+    font-size: 1.2em;
+    font-weight: 700;
+    color: #b295f2;
+}
+
+.product-price {
+    font-size: 1em;
+    color: #888;
+}
+
+.quantity-container {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.quantity-input {
+    width: 60px; 
+    padding: 5px;
+    margin-right: 5px;
+    border: 0.2rem solid #c7acea;
+    box-shadow: 0.2rem 0.2rem #c9aeed;
+    color: #8965d5;
+    border-radius: 5px;
+}
+
+.add-btn {
+    padding: 5px 10px;
+    background-color: #f7ccff; 
+    color: #8965d5;
+    border-radius: 5px;
+
+    border: 5px solid #c7acea;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.add-btn:hover {
+    background-color: #45a049; 
+}
+
+
+@media (max-width: 600px) {
+    .product-card {
+        width: calc(100% - 20px); 
+    }
+
+    .product-name {
+        font-size: 1.1em; 
+    }
+
+    .product-price {
+        font-size: 0.9em; 
+    }
+
+    .quantity-input {
+        width: 50px; 
+    }
+
+    .add-btn {
+        width: 100%; 
+    }
+}

@@ -1,0 +1,98 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* .item-header-2{
+    display: flex; 
+    flex: column;
+    padding: 8px 32px;
+    background-color: white;
+    box-shadow: rgb(104, 104, 104) 0px 4px 6px -1px;
+} */
+
+/* .search-bar-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    position: relative;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+} */
+
+
+
+
+
+/* .content-wrapper{
+    position: absolute;
+    top: 10px;
+} */
+
+
+
+
+
+
+
+
+
+.cart-table{
+    margin-top: 30vh;
+    border: 0.2rem solid #c7acea;
+    box-shadow: 0.4rem 0.4rem #f7ccff;
+    border-radius: 30px;
+    width: 90vw;
+}
+
+.cart-table th, td{
+    padding: 20px;
+    text-align: center;
+}
+
+.table-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 90vw;
+}
+
+/* make the total as position absolute */
+
+
+.submit-btn{
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    background: none;
+}
+
+.product-detail-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100vw;
+    padding: 8vw;
+}
+
+.product-img img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.product-name{
+    font-weight: 800;
+}
+
+.product-price{
+    margin: 1rem 0;
+}
